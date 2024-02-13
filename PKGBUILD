@@ -18,5 +18,5 @@ build() {
 
 package() {
 	cd "${pkgname}-${pkgver}"
-	python3 setup.py install --prefix=/usr --root="$pkgdir"
+	python3 setup.py install --root="$pkgdir" --install-layout=deb
 }

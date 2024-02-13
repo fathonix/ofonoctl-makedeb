@@ -1,3 +1,4 @@
-ofonoctl-*.tar.gz
+ofonoctl-*.tar.*
+*.deb
 pkg/
 src/
